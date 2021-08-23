@@ -43,9 +43,9 @@ Add the Sources folder into your project.
                        .trail(label.leadingAnchor, spacing: 16) 
                        .height(100, relation: .greaterThan)     // supports lessThan or greaterThan, default is equalTo
                        
-    titleLabel.constrain.fill()                                 // lots of shortcuts
+    tableView.constrain.fill()                                  // lots of shortcuts
     
-    descriptionLabel.constrain.horizontalFill(lead: 16)
+    titleLabel.constrain.horizontalFill(lead: 16)
                               .centerY()
                               .height(150)
 
