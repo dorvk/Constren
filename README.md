@@ -15,7 +15,7 @@ To add Constren into your project using [Carthage](https://github.com/Carthage/C
 
     github "dorvk/Constren"
     
-## Manually
+## Manually
 
 Add the Sources folder into your project.
 
