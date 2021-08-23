@@ -46,6 +46,8 @@ Add the Sources folder into your project.
                       
     tableView.constrain.fill()                                  // lots of shortcuts
     
+    collectionView.constrain.fill(lead: 16, bot: 32)
+    
     titleLabel.constrain.horizontalFill(lead: 16)
                         
     imageView.constrain.centered(x: 16)
