@@ -49,8 +49,8 @@ Add the Sources folder into your project.
     collectionView.constrain.fill(lead: 16, bot: 32)
     
     titleLabel.constrain.horizontalFill(lead: 16)
+                        .centerY(spacing: 16)
                         
     imageView.constrain.centered(x: 16)
-    
-    stackView.constrain.squared(250)
+                       .squared(250)
 
