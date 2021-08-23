@@ -3,7 +3,8 @@ Make trains of constraints with style!
 
 # Installation
 
-# Cocoapods
+Cocoapods
+------------
 To integrate Constren into your project using CocoaPods, add it in your Podfile:
 
     pod 'Constren', :git => 'https://github.com/dorvk/Constren.git'
