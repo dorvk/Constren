@@ -27,7 +27,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'}
 
-  spec.source_files = "*"
+  spec.source_files = 'Sources/**/*.swift'
   spec.author       = { "dorukcoban" => "dorukcoban@outlook.com" }
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/dorvk/Constrain.git", :tag => "1.0.1" }
