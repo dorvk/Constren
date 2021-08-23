@@ -47,6 +47,8 @@ Add the Sources folder into your project.
     tableView.constrain.fill()                                  // lots of shortcuts
     
     titleLabel.constrain.horizontalFill(lead: 16)
-                        .centerY()
-                        .height(150)
+                        
+    imageView.centered(x: 16)
+    
+    stackView.squared(250)
 
