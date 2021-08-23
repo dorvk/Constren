@@ -48,7 +48,7 @@ Add the Sources folder into your project.
     
     titleLabel.constrain.horizontalFill(lead: 16)
                         
-    imageView.centered(x: 16)
+    imageView.constrain.centered(x: 16)
     
-    stackView.squared(250)
+    stackView.constrain.squared(250)
 
