@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		020FA1A326D3896500737B9F /* Constrain.h in Headers */ = {isa = PBXBuildFile; fileRef = 020FA1A126D3896500737B9F /* Constrain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		020FA1AA26D3898300737B9F /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FA1A926D3898300737B9F /* Constrainable.swift */; };
+		020FA1AC26D3898B00737B9F /* ViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FA1AB26D3898B00737B9F /* ViewWrapper.swift */; };
+		020FA1AE26D3898F00737B9F /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FA1AD26D3898F00737B9F /* Endpoints.swift */; };
+		020FA1B026D3943400737B9F /* NSLayoutAnchor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FA1AF26D3943400737B9F /* NSLayoutAnchor+Extension.swift */; };
+		020FA1B526D3FFA000737B9F /* NSLayoutDimension+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FA1B426D3FFA000737B9F /* NSLayoutDimension+Extension.swift */; };
+		020FA1B726D3FFCD00737B9F /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020FA1B626D3FFCD00737B9F /* Relation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		020FA19E26D3896500737B9F /* Constrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Constrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		020FA1A126D3896500737B9F /* Constrain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constrain.h; sourceTree = "<group>"; };
 		020FA1A226D3896500737B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020FA1A926D3898300737B9F /* Constrainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constrainable.swift; sourceTree = "<group>"; };
+		020FA1AB26D3898B00737B9F /* ViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWrapper.swift; sourceTree = "<group>"; };
+		020FA1AD26D3898F00737B9F /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		020FA1AF26D3943400737B9F /* NSLayoutAnchor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutAnchor+Extension.swift"; sourceTree = "<group>"; };
+		020FA1B426D3FFA000737B9F /* NSLayoutDimension+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutDimension+Extension.swift"; sourceTree = "<group>"; };
+		020FA1B626D3FFCD00737B9F /* Relation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +42,7 @@
 		020FA19426D3896500737B9F = {
 			isa = PBXGroup;
 			children = (
-				020FA1A026D3896500737B9F /* Constrain */,
+				020FA1A026D3896500737B9F /* Sources */,
 				020FA19F26D3896500737B9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,13 +55,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		020FA1A026D3896500737B9F /* Constrain */ = {
+		020FA1A026D3896500737B9F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				020FA1A926D3898300737B9F /* Constrainable.swift */,
+				020FA1AB26D3898B00737B9F /* ViewWrapper.swift */,
+				020FA1B626D3FFCD00737B9F /* Relation.swift */,
+				020FA1AD26D3898F00737B9F /* Endpoints.swift */,
+				020FA1B326D3FF8E00737B9F /* Extensions */,
 				020FA1A126D3896500737B9F /* Constrain.h */,
 				020FA1A226D3896500737B9F /* Info.plist */,
 			);
-			path = Constrain;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		020FA1B326D3FF8E00737B9F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				020FA1AF26D3943400737B9F /* NSLayoutAnchor+Extension.swift */,
+				020FA1B426D3FFA000737B9F /* NSLayoutDimension+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +120,7 @@
 				TargetAttributes = {
 					020FA19D26D3896500737B9F = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -130,6 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020FA1AC26D3898B00737B9F /* ViewWrapper.swift in Sources */,
+				020FA1AE26D3898F00737B9F /* Endpoints.swift in Sources */,
+				020FA1AA26D3898300737B9F /* Constrainable.swift in Sources */,
+				020FA1B726D3FFCD00737B9F /* Relation.swift in Sources */,
+				020FA1B526D3FFA000737B9F /* NSLayoutDimension+Extension.swift in Sources */,
+				020FA1B026D3943400737B9F /* NSLayoutAnchor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +294,7 @@
 		020FA1A726D3896500737B9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dorvk.Constrain;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +319,7 @@
 		020FA1A826D3896500737B9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

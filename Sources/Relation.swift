@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+public enum Relation_: Int {
+    case equal = 0
+    case greaterThan = 1
+    case lessThan = 2
+}

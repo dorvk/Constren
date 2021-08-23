@@ -13,5 +13,6 @@ public struct ViewWrapper {
 
     init(_ view: UIView) {
         self_ = view
+        self_.translatesAutoresizingMaskIntoConstraints = false
     }
 }

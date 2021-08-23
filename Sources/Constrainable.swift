@@ -14,10 +14,7 @@ public protocol Constrainable {
 public extension Constrainable where Self: UIView {
 
     var constrain: ViewWrapper {
-        get {
-            translatesAutoresizingMaskIntoConstraints = false
-            return ViewWrapper(self)
-        }
+        get { return ViewWrapper(self) }
     }
 }
 
