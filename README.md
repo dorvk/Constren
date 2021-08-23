@@ -6,7 +6,7 @@ Make trains of constraints with style!
                        .trail(label.bottomAnchor, spacing: 16)
                        .height(100, relation: .greaterThan)
                        
-Constren is a layout tool for UIKit
+Constren is an easy to use layout tool for UIKit
 
 # Requirements
 
