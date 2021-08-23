@@ -1,6 +1,6 @@
 //
 //  Endpoints.swift
-//  Constrain
+//  Constren
 //
 //  Created by Doruk Çoban on 21.08.2021.
 //

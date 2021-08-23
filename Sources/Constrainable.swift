@@ -1,6 +1,6 @@
 //
 //  Constrainable.swift
-//  Constrain
+//  Constren
 //
 //  Created by Doruk Çoban on 22.08.2021.
 //

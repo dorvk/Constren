@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "020FA19D26D3896500737B9F"
-               BuildableName = "Constrain.framework"
-               BlueprintName = "Constrain"
-               ReferencedContainer = "container:Constrain.xcodeproj">
+               BuildableName = "Constren.framework"
+               BlueprintName = "Constren"
+               ReferencedContainer = "container:Constren.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "020FA19D26D3896500737B9F"
-            BuildableName = "Constrain.framework"
-            BlueprintName = "Constrain"
-            ReferencedContainer = "container:Constrain.xcodeproj">
+            BuildableName = "Constren.framework"
+            BlueprintName = "Constren"
+            ReferencedContainer = "container:Constren.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
