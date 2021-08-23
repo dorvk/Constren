@@ -1,16 +1,10 @@
 # Constren 🚂.🚃.🚋.🚃.🚋.🚃.🚋.🚃.🚋
 Make trains of constraints with style!
 
-    imageView.constrain.top()                                   // default is equalToSuperview with 0 spacing
-                       .lead(spacing: 16)                       // you can add spacing
-                       .trail(label.leadingAnchor, spacing: 16) 
-                       .height(100, relation: .greaterThan)     // supports lessThan or greaterThan, default is equalTo
-                       
-    titleLabel.constrain.fill()                                 // lots of shortcuts
-    
-    descriptionLabel.constrain.horizontalFill(lead: 16)
-                              .centerY()
-                              .height(150)
+    button.constrain.centerY()
+                    .lead(spacing: 16)
+                    .trail(spacing: 64)
+                    .height(100)
                        
 Constren is an easy to use layout tool for UIKit
 
@@ -41,13 +35,17 @@ Add the Sources folder into your project.
 # Example
 
     import Constren
+    
+    view.addSubview(imageView)
 
-    let button = UIButton()
-        
-    view.addSubview(button)
-
-    button.constrain.centerY()
-                    .lead(spacing: 16)
-                    .trail(spacing: 64)
-                    .height(100)
+    imageView.constrain.top()                                   // default is equalToSuperview with 0 spacing
+                       .lead(spacing: 16)                       // you can add spacing
+                       .trail(label.leadingAnchor, spacing: 16) 
+                       .height(100, relation: .greaterThan)     // supports lessThan or greaterThan, default is equalTo
+                       
+    titleLabel.constrain.fill()                                 // lots of shortcuts
+    
+    descriptionLabel.constrain.horizontalFill(lead: 16)
+                              .centerY()
+                              .height(150)
 That's it
