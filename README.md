@@ -4,9 +4,13 @@ Make trains of constraints with style!
     imageView.constrain.top()                                   // default is equalToSuperview with 0 spacing
                        .lead(spacing: 16)                       // you can add spacing
                        .trail(label.leadingAnchor, spacing: 16) 
-                       .height(100, relation: .greaterThan)     // you can add lessThan or greaterThan, defaul is equalTo
+                       .height(100, relation: .greaterThan)     // supports lessThan or greaterThan, default is equalTo
                        
-    titleLabel.constrain.fill()
+    titleLabel.constrain.fill()                                 // lots of shortcuts
+    
+    descriptionLabel.constrain.horizontalFill(lead: 16)
+                              .centerY()
+                              .height(150)
                        
 Constren is an easy to use layout tool for UIKit
 
