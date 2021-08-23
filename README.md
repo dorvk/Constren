@@ -42,6 +42,7 @@ Add the Sources folder into your project.
                        .lead(spacing: 16)                       // you can add spacing
                        .trail(label.leadingAnchor, spacing: 16) 
                        .height(100, relation: .greaterThan)     // supports lessThan or greaterThan, default is equalTo
+ -
                        
     tableView.constrain.fill()                                  // lots of shortcuts
     
