@@ -44,3 +44,4 @@ Add the Sources folder into your project.
                     .lead(spacing: 16)
                     .trail(spacing: 64)
                     .height(100)
+That's it
