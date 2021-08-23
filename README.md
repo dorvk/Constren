@@ -1,10 +1,10 @@
 # Constren 🚂.🚃.🚋.🚃.🚋.🚃.🚋.🚃.🚋
 Make trains of constraints with style!
 
-`imageView.constrain.top()
+    imageView.constrain.top()
                     .lead(spacing: 16)
                     .trail(label.bottomAnchor, spacing: 16)
-                    .height(100, relation: .greaterThan)`
+                    .height(100, relation: .greaterThan)
                    
 # Installation
 
