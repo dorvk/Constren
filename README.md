@@ -3,20 +3,20 @@ Make trains of constraints with style!
 
 # Installation
 
-Cocoapods
-------------
+## Cocoapods
+
 To add Constren into your project using [CocoaPods](https://cocoapods.org/), add it in your Podfile:
 
     pod 'Constren', :git => 'https://github.com/dorvk/Constren.git'
     
-Carthage
-------------
+## Carthage
+
 To add Constren into your project using [Carthage](https://github.com/Carthage/Carthage), specify it in your Cartfile:
 
     github "dorvk/Constren"
     
-Manually
-------------
+## Manually
+
 Add the Sources folder into your project.
 
 # Example
