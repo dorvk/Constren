@@ -26,6 +26,8 @@ Add the Sources folder into your project.
 
 # Example
 
+    import Constren
+
     let button = UIButton()
         
     view.addSubview(button)
