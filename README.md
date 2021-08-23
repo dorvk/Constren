@@ -36,6 +36,8 @@ Add the Sources folder into your project.
 
     import Constren
     
+    let imageView = UIImageView()
+    
     view.addSubview(imageView)
 
     imageView.constrain.top()                                   // default is equalToSuperview with 0 spacing
