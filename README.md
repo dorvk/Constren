@@ -3,8 +3,8 @@ Make trains of constraints with style!
 
     button.constrain.centerY()
                     .lead(spacing: 16)
-                    .trail(spacing: 64)
-                    .height(100)
+                    .trail(image.leadingAnchor, spacing: 64)
+                    .height(100, relation: .greaterThan)
                        
 Constren is an easy to use layout tool for UIKit
 
