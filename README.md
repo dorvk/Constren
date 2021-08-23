@@ -5,9 +5,19 @@ Make trains of constraints with style!
 
 Cocoapods
 ------------
-To integrate Constren into your project using CocoaPods, add it in your Podfile:
+To add Constren into your project using CocoaPods, add it in your Podfile:
 
     pod 'Constren', :git => 'https://github.com/dorvk/Constren.git'
+    
+Carthage
+------------
+To add Constren into your project using Carthage, specify it in your Cartfile:
+
+    github "dorvk/Constren"
+    
+Manually
+------------
+Add the Sources folder into your project.
 
 # Example
 
