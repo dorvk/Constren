@@ -2,9 +2,9 @@
 Make trains of constraints with style!
 
     imageView.constrain.top()
-                    .lead(spacing: 16)
-                    .trail(label.bottomAnchor, spacing: 16)
-                    .height(100, relation: .greaterThan)
+                       .lead(spacing: 16)
+                       .trail(label.bottomAnchor, spacing: 16)
+                       .height(100, relation: .greaterThan)
                    
 # Installation
 
