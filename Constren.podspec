@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "ConsTrain for Swift"
-  spec.version      = "1.0.0"
+  spec.name         = "Constren"
+  spec.version      = "1.0.1"
   spec.summary      = "Make trains of constraints with style!"
   spec.homepage     = "https://github.com/dorvk/Constrain"
   spec.license      = { :type => 'MIT', :text => 'MIT License
@@ -30,6 +30,6 @@ SOFTWARE.'}
   spec.source_files = "*"
   spec.author       = { "dorukcoban" => "dorukcoban@outlook.com" }
   spec.platform     = :ios, "10.0"
-  spec.source       = { :git => "https://github.com/dorvk/Constrain.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/dorvk/Constrain.git", :tag => "1.0.1" }
   spec.swift_versions = "4.0"
 end
