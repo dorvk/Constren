@@ -44,7 +44,7 @@ Add the Sources folder into your project.
                        .height(100, relation: .greaterThan)     // supports lessThan or greaterThan, default is equalTo
  -----------
                       
-    tableView.constrain.fill()                                  // lots of shortcuts
+    tableView.constrain.fill()                                  // shortcuts
     
     collectionView.constrain.fill(lead: 16, bot: 32)
     
