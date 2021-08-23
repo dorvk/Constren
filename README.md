@@ -5,6 +5,14 @@ Make trains of constraints with style!
                        .lead(spacing: 16)
                        .trail(label.bottomAnchor, spacing: 16)
                        .height(100, relation: .greaterThan)
+                       
+Constren is an AutoLayout tool
+
+# Requirements
+
+iOS 10.0+
+Xcode 10.0+
+Swift 4.0+
                    
 # Installation
 
