@@ -110,7 +110,8 @@ public extension ViewWrapper {
     }
     
     @discardableResult
-    func centered(y: CGFloat = 0, x: CGFloat = 0) -> Self {
+    func centered(y: CGFloat = 0,
+                  x: CGFloat = 0) -> Self {
         return self.centerX(spacing: x)
                    .centerY(spacing: y)
     }
@@ -142,15 +143,15 @@ public extension ViewWrapper {
     }
     
     @discardableResult
-    func horizontalFill(_ lead: CGFloat = 0,
-                        _ trail: CGFloat = 0) -> Self {
+    func horizontalFill(lead: CGFloat = 0,
+                        trail: CGFloat = 0) -> Self {
         return self.lead(rootView.leadingAnchor, spacing: lead)
                    .trail(rootView.trailingAnchor, spacing: trail)
     }
     
     @discardableResult
-    func verticalFill(_ top: CGFloat = 0,
-                      _ bot: CGFloat = 0) -> Self {
+    func verticalFill(top: CGFloat = 0,
+                      bot: CGFloat = 0) -> Self {
         return self.top(rootView.topAnchor, spacing: top)
                    .bot(rootView.bottomAnchor, spacing: bot)
     }
