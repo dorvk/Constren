@@ -1,10 +1,10 @@
 # Constren 🚂.🚃.🚋.🚃.🚋.🚃.🚋.🚃.🚋
 Make trains of constraints with style!
 
-    button.constrain.centerY()
-                    .lead(spacing: 16)
-                    .trail(image.leadingAnchor, spacing: 64)
-                    .height(100, relation: .greaterThan)
+    button.constren.centerY()
+                   .lead(spacing: 16)
+                   .trail(image.leadingAnchor, spacing: 64)
+                   .height(100, relation: .greaterThan)
                        
 Constren is an easy to use layout tool for UIKit
 
@@ -40,19 +40,19 @@ Add the Sources folder into your project.
     
     view.addSubview(imageView)
 
-    imageView.constrain.top()                                   // default is equalToSuperview with 0 spacing
-                       .lead(spacing: 16)                       // you can add spacing
-                       .trail(label.leadingAnchor, spacing: 16) 
-                       .height(100, relation: .greaterThan)     // supports lessThan or greaterThan, default is equalTo
+    imageView.constren.top()                                   // default is equalToSuperview with 0 spacing
+                      .lead(spacing: 16)                       // you can add spacing
+                      .trail(label.leadingAnchor, spacing: 16) 
+                      .height(100, relation: .greaterThan)     // supports lessThan or greaterThan, default is equalTo
  -----------
                       
-    tableView.constrain.fill()                                  // shortcuts
+    tableView.constren.fill()                                  // shortcuts
     
-    collectionView.constrain.fill(lead: 16, bot: 32)
+    collectionView.constren.fill(lead: 16, bot: 32)
     
-    titleLabel.constrain.horizontalFill(lead: 16)
+    titleLabel.constren.horizontalFill(lead: 16)
                         .centerY(spacing: 16)
                         
-    imageView.constrain.centered(x: 16)
+    imageView.constren.centered(x: 16)
                        .squared(250)
 
