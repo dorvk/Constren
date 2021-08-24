@@ -8,12 +8,12 @@
 import UIKit
 
 public protocol Constrainable {
-    var constrain: ViewWrapper { get }
+    var constren: ViewWrapper { get }
 }
 
 public extension Constrainable where Self: UIView {
 
-    var constrain: ViewWrapper {
+    var constren: ViewWrapper {
         get { return ViewWrapper(self) }
     }
 }
