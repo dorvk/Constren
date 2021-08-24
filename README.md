@@ -55,5 +55,5 @@ Add the Sources folder into your project.
                         .centerY(spacing: 16)
                         
     imageView.constren.centered(x: 16)
-                       .squared(250)
+                      .squared(250)
 
