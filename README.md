@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Constren](https://img.shields.io/badge/Platform-iOS-hotpink.svg)(https://github.com/dorvk/Constren.git)]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Constren](https://img.shields.io/badge/Platform-iOS-hotpink.svg)](https://github.com/dorvk/Constren.git)
 # Constren 🚂.🚃.🚋.🚃.🚋.🚃.🚋.🚃.🚋
 Make trains of constraints with style!
 
