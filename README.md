@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Constren](https://img.shields.io/badge/pod-v1.0.0-hotpink.svg)](https://github.com/dorvk/Constren.git) [![Cocoapods]()](https://cocoapods.org/pods/Constren)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Constren](https://img.shields.io/badge/Platform-iOS-hotpink.svg)](https://github.com/dorvk/Constren.git) [![Cocoapods](https://img.shields.io/badge/pod-v1.0.0-green.svg)](https://cocoapods.org/pods/Constren)
 # Constren 🚂.🚃.🚋.🚃.🚋.🚃.🚋.🚃.🚋
 Make trains of constraints with style!
 
