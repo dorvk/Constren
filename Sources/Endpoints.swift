@@ -13,8 +13,8 @@ public extension ViewWrapper {
         return self_.superview ?? self_
     }
     
-    var getConstraint: NSLayoutConstraint? {
-        self_.constraints.last
+    var asNSLayoutConstraint: NSLayoutConstraint? {
+        rootView.constraints.last
     }
     
     @discardableResult
