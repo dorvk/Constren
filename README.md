@@ -1,11 +1,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Constren](https://img.shields.io/badge/Platform-iOS-hotpink.svg)](https://github.com/dorvk/Constren.git) [![Cocoapods](https://img.shields.io/badge/pod-v1.0.1-green.svg)](https://cocoapods.org/pods/Constren)
-# Constren 🚂.🚃.🚋.🚃.🚋.🚃.🚋.🚃.🚋
+# Constren 🚂.🚃.🚋
 Make trains of constraints with style!
 
-    button.constren.centerY()
-                   .lead(spacing: 16)
-                   .trail(image.leadingAnchor, spacing: 64)
-                   .height(100, relation: .greaterThan)
+    button.constren
+        .centerY()
+        .lead(spacing: 16)
+        .trail(image.leadingAnchor, spacing: 64)    
+        .height(100, relation: .greaterThan)
                        
 Constren is an easy to use layout tool for UIKit
 
@@ -41,19 +42,27 @@ Add the Sources folder into your project.
     
     view.addSubview(imageView)
 
-    imageView.constren.top()                                   // default is equalToSuperview with 0 spacing
-                      .lead(spacing: 16)                       // you can add spacing
-                      .trail(label.leadingAnchor, spacing: 16) 
-                      .height(100, relation: .greaterThan)     // supports lessThan or greaterThan, default is equalTo
+    imageView.constren
+        .top()                                   // default is equalToSuperview with 0 spacing
+        .lead(spacing: 16)                       // you can add spacing
+        .trail(label.leadingAnchor, spacing: 16) 
+        .height(100, relation: .greaterThan)     // supports lessThan or greaterThan, default is equalTo
+        
+    var constraint = imageView.constren
+                        .width(50)
+                        .asNSLayoutConstraint
+    constraint?.constant = 100                   // supports constant updating 
  -----------
                       
     tableView.constren.fill()                                  // shortcuts
     
     collectionView.constren.fill(lead: 16, bot: 32)
     
-    titleLabel.constren.horizontalFill(lead: 16)
-                       .centerY(spacing: 16)
+    titleLabel.constren
+        .horizontalFill(lead: 16)
+        .centerY(spacing: 16)
                         
-    imageView.constren.centered(x: 16)
-                      .squared(250)
+    imageView.constren
+        .centered(x: 16)
+        .squared(250)
 
