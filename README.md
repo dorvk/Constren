@@ -30,6 +30,12 @@ To add Constren into your project using [Carthage](https://github.com/Carthage/C
 
     github "dorvk/Constren"
     
+## Swift Package Manager
+
+To add Constren into your project using [Swift Package Manager](https://www.swift.org/package-manager/), add following into your Package.swift file,
+
+    dependencies: [ .package(url: "https://github.com/dorvk/Constren.git", from: "1.0.3") ]
+    
 ## Manually
 
 Add the Sources folder into your project.
@@ -51,6 +57,7 @@ Add the Sources folder into your project.
     var constraint = imageView.constren
                         .width(50)
                         .asNSLayoutConstraint
+                        
     constraint?.constant = 100                   // supports constant updating 
  -----------
                       
