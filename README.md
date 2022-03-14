@@ -34,7 +34,7 @@ To add Constren into your project using [Carthage](https://github.com/Carthage/C
 
 To add Constren into your project using [Swift Package Manager](https://www.swift.org/package-manager/), add following into your Package.swift file,
 
-    dependencies: [ .package(url: "https://github.com/dorvk/Constren.git", from: "1.0.3") ]
+    dependencies: [ .package(url: "https://github.com/dorvk/Constren.git", .branch("master")) ]
     
 ## Manually
 
