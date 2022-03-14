@@ -26,17 +26,13 @@ import PackageDescription
 
 let package = Package(
     name: "Constren",
-    platforms: [
-        .iOS(.v10)
-    ],
     products: [
         .library(name: "Constren", targets: ["Constren"])
     ],
     dependencies: [],
     targets: [
         .target(name: "Constren", dependencies: [], path: "Sources", exclude: ["Info.plist"])
-    ],
-    swiftLanguageVersions: [.v4]
+    ]
 )
 
 
